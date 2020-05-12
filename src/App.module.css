@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(250,250,250);
+    /* background-color: rgb(250,250,250); */
+    background: #00000046 url(images/image.jpg);
+    background-size: cover;
+   
 }
 
 .container{

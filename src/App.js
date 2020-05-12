@@ -6,7 +6,6 @@ import {fetchData} from "./api";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import coronaImage from "./images/image.jpg";
 
 class App extends React.Component{
 
@@ -36,7 +35,6 @@ class App extends React.Component{
         return(
             <div className={styles.container}>
                <Header/>
-               <img src={coronaImage} alt="Covidimg"/>
                <Cards data={data}/>
                <CountryPicker handleCountryChange={this.handleCountryChange}/>
                <Chart data={data} country={country}/>
