@@ -6,7 +6,7 @@
 .navbar{
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 8vh;
     background-color: darkblue;
     list-style: none;
     font-family: 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
