@@ -12,8 +12,13 @@
     font-family: 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
+img{
+    height: 54px;
+}
 span{
     flex: .8;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 .title{
     flex: 1;
@@ -56,10 +61,16 @@ span{
 
 @media screen and (max-width:650px){
     span{
-        flex: 0;
+        flex: -1;
     }
     .title a{
         margin-left: 15px;
-       font-size: 24px;
+        font-size: 22px;
+    }
+    .img{
+        height: 30px;
+    }
+    .items{
+        padding-right: 5px;
     }
 }
