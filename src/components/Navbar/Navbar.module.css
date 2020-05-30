@@ -46,7 +46,7 @@ span{
 }
 
 .items li {
-    padding: 0 1.2rem ;
+    padding: 0 1rem ;
 }
 .title a:hover,
 .title a:hover{
@@ -68,9 +68,12 @@ span{
         font-size: 22px;
     }
     .img{
-        height: 30px;
+        height: 40px;
     }
     .items{
-        padding-right: 5px;
+        padding-right: 8px;
+    }
+    .items li {
+        padding-right: 0.2rem;
     }
 }
